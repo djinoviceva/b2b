@@ -11,6 +11,8 @@
 html{
   scroll-behavior: smooth;
 }
+
+
 h4{
   color: #FFDE59; 
  font-size: 70px; 
@@ -77,16 +79,17 @@ a:hover{
 p{
   text-align: justify;
 }
-.behindtext{
+ .behindtext{
  box-shadow: 10px 10px 10px(rgba(0, 0, 0, 0.2));
  display: flex;
  justify-content: center;
  background: linear-gradient(#FFDE59,gray);
  color: #313131;
  padding: 30px;
- 
 border-radius: 7px;
-}
+} 
+
+
 /*b2b*/
 @media (min-width: 1024px) {
   #b2b {
@@ -516,3 +519,41 @@ border-radius: 7px;
     line-height: 24px;
   }
 }
+
+/* classifitacion  */
+
+/* End classifitacion */
+
+/*events*/
+@media (min-width: 1024px) {
+  #events {
+    background-attachment: fixed;
+    height: min-content;
+  }
+}
+
+@media (max-height: 800px) {
+  #events {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #events {
+    height: auto;
+  }
+  #events h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #events h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+/*end events*/
+/*events*/
+.card-title{
+  font-size: 35px;
+}
+/*end events*/
