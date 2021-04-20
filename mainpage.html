@@ -42,7 +42,7 @@
                       <a class="nav-link" href="#b2b">B2B</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#classifitacion">Klasifikacija</a>
+                      <a class="nav-link" href="#classification">Klasifikacija</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#importance">Značaj</a>
@@ -105,8 +105,80 @@
       </div>
 
        <!-- sectionClassif -->
-      <div class="section-3 box" id="classifitacion">
+      <div class="section-3 box" id="classification">
+      <div class="container">
+        <h2 class="display-4 text-center text-h2"><b>Tipovi B2B kupaca</b></h2>
         
+        <div class="row mt-4">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center card-border bg-transparent text-black h-100">
+              <p class="text-center"><img src="manufacturer.png" class="card-img-top img-cards mt-4" alt="Manufacturer icon"></p>
+              <div class="card-body">
+                <h5 class="card-title"><b>Proizvođači</b></h5>
+
+                <p class="card-text text-center"><i>Proizvođači su tip B2B kompanije koja kupuje neku robu ili uslugu i koristi je za dalju proizvodnju.</i>
+                  <i id="showHideM">To su kompanije koje kupuju od drugih kompanija materijal 
+                    ili opremu kako bi proizveli svoj proizvod ili pružili uslugu koju nude.</i>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#classification" id="buttonManufacturer" class="btn btn-warning"><b>Saznaj više</b></a>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center card-border bg-transparent text-black h-100">
+              <p class="text-center"><img src="reseller.png" class="card-img-top img-cards mt-4" alt="Reseller icon"></p>
+              <div class="card-body">
+                <h5 class="card-title"><b>Preprodavci</b></h5>
+
+                <p class="card-text text-center"><i>Preprodavci su kompanije koje prodaju robu i usluge koje su druge kompanije proizvele, 
+                  a pritom ih materijalno ne menjaju.</i>
+                  <i id="showHideR">To su kompanije koje se bave veleprodajom, kupuju od proizvođača ili drugih veleprodaja
+                     i prodaju ih najčešće maloprodajama koje posluju u B2C sistemima.</i>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#showHideR" id="buttonReseller" class="btn btn-warning"><b>Saznaj više</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center card-border bg-transparent text-black h-100">
+              <p class="text-center"><img src="government.png" class="card-img-top img-cards mt-4" alt="Government icon"></p>
+              <div class="card-body">
+                <h5 class="card-title"><b>Vlade</b></h5>
+
+                <p class="card-text text-center"><i>Kako bi vlada jedne države pravilno funkcionisala, potrebno je da kupuje određene proizvode
+                  i usluge, što je čini jednom od većih učesnika u B2B sistemima.</i>
+                  <i id="showHideG">Gotovo svakodnevno se vrši nabavka različite robe, od kancelarijskog 
+                    materijala do različitih mašina. Takođe, ima konstantnu potrebu za angažovanjem kompanija koje pružaju 
+                    određene usluge.</i>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#showHideG" id="buttonGovernment" class="btn btn-warning"><b>Saznaj više</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center card-border bg-transparent text-black h-100">
+              <p class="text-center"><img src="institution.png" class="card-img-top img-cards mt-4" alt="Institution icon"></p>
+              <div class="card-body">
+                <h5 class="card-title"><b>Institucije</b></h5>
+
+                <p class="card-text text-center"><i>Institucije podrazumevaju neprofitne organizacije koje učestvuju na B2B tržištu
+                  a poput vlada i profitnih kompanija, takođe im je potrebna veća količina robe i usluga.</i>
+                  <i id="showHideI">Primeri institucija koje učestvuju u B2B sistemu su: crkve, bolnice, dobrotvorne organizacije...</i>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#showHideI" id="buttonInstitution" class="btn btn-warning"><b>Saznaj više</b></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
        <!-- sectionImportance -->
       <div class="section-4 box" id="importance">
@@ -401,7 +473,6 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    
-   
+    <script src="myScript.js"></script>
   </body>
 </html>
