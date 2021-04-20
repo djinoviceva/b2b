@@ -614,11 +614,24 @@ border-radius: 7px;
 /*end events*/
 
 h5{
-  font-size: 50px;
+  font-size: 30px;
   color: #FFDE59;
 }
 
 
 h2{
   margin-top: 160px;
+}
+.card-title{
+  font-size: 30px;
+  color: #313131;
+}
+.display-4{
+  margin-top: -10px;
+  color: #313131;
+}
+
+.logo1{
+  width: 70px;
+  height: 70px;
 }
