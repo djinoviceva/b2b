@@ -126,13 +126,13 @@ border-radius: 7px;
   overflow: hidden;
   width: 100%;
   text-align: center;
-  height:368px;
+  height:200px;
   border:none;
 }
 .profile-card-3 .background-block {
     float: left;
     width: 100%;
-    height: 200px;
+    height: 240px;
     
 }
 .profile-card-3 .background-block .background {
@@ -179,16 +179,16 @@ border-radius: 7px;
 .profile-card-3 h2 {
   margin: 0 0 5px;
   font-weight: 600;
-  font-size:25px;
+  font-size:27px;
 }
 .profile-card-3 h2 small {
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   margin-top:10px;
 }
 .profile-card-3 i {
   display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     color: #232323;
     text-align: center;
     border: 1px solid #232323;
@@ -237,8 +237,10 @@ border-radius: 7px;
 
 
 /*trends*/
+
 #trends .icon-boxes {
-  margin-top: 70px;
+  margin-top: 50px;
+ 
 }
 
 #trends .icon-box {
@@ -250,24 +252,27 @@ border-radius: 7px;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+ 
 }
 
 #trends .icon-box .title {
   font-weight: 700;
-  margin-bottom: 0px;
+  margin-bottom: -130px; 
   font-size: 18px;
   color: #000;
+ 
 }
 
 #trends .icon-box .title a {
-  color: #124265;
+  color: #FFDE59;
   transition: 0.3s;
+  margin-bottom: -70px;
 }
 
 #trends .icon-box .description {
   font-size: 15px;
   line-height: 28px;
-  margin-bottom: 40px;
+   margin-bottom: 120px; 
   color: #000;
 }
 
@@ -276,7 +281,8 @@ border-radius: 7px;
 }
 
 #trends .icon-box:hover .title a {
-  color: #2487ce;
+  color: #313131;
+
 }
 
 @media (min-width: 1024px) {
@@ -554,6 +560,20 @@ border-radius: 7px;
 /*end events*/
 /*events*/
 .card-title{
-  font-size: 35px;
+  font-size: 45px;
+  margin-top: -5px;
+}
+.card{
+ height: fit-content;
 }
 /*end events*/
+
+h5{
+  font-size: 50px;
+  color: #FFDE59;
+}
+
+
+h2{
+  margin-top: 160px;
+}
