@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $("#showHideM").hide();
+    $("#showHideR").hide();
+    $("#showHideG").hide();
+    $("#showHideI").hide();
+    $("#buttonManufacturer").click(function(){
+      $("#showHideM").toggle();
+    });
+    $("#buttonReseller").click(function(){
+        $("#showHideR").toggle();
+    });
+    $("#buttonGovernment").click(function(){
+        $("#showHideG").toggle();
+    });
+    $("#buttonInstitution").click(function(){
+        $("#showHideI").toggle();
+    });
+  });

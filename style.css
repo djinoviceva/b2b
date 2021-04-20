@@ -65,9 +65,12 @@ a:hover{
 }
 
 .section-3{
-    background-image: url(buildings.jpg);
+    background-image: url(buildings-opacity.jpg);
     background-attachment: fixed;
     background-size: auto;
+}
+.section-3 .background-image {
+  opacity: 0.6;
 }
 
 .section-4{
@@ -114,6 +117,23 @@ border-radius: 7px;
   }
 }
 /*end b2b*/
+
+/*classification*/
+.card-border {
+  border: 3px solid #FFDE59;
+}
+.text-black {
+  color: black;
+}
+.text-h2 {
+  text-shadow: 1px 2px black;
+  color: #FFDE59;
+}
+.img-cards {
+  width: 120px;
+  height: 120px;
+}
+/*end classification*/
 
 /*team*/
 .profile-card-3 {
