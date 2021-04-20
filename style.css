@@ -547,7 +547,32 @@ border-radius: 7px;
 }
 
 /* classifitacion  */
+@media (min-width: 1024px) {
+  #classification {
+    background-attachment: fixed;
+    height: min-content;
+  }
+}
 
+@media (max-height: 800px) {
+  #classification {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #classification {
+    height: auto;
+  }
+  #classification h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #classification h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
 /* End classifitacion */
 
 /*events*/
